@@ -1,0 +1,4 @@
+<?php //netteCache[01]000312a:3:{s:4:"time";s:21:"0.40624500 1419280711";s:9:"callbacks";a:1:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:119:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\vcelyweb\app\presenters\EkonomikaPresenter.php";i:2;i:1419280663;}}s:10:"serialized";b:1;}?>a:1:{s:33:"App\Presenters\EkonomikaPresenter";a:4:{s:3:"use";a:3:{s:5:"Model";s:9:"App\Model";s:5:"Nette";s:5:"Nette";s:4:"Form";s:25:"Nette\Application\UI\Form";}s:13:"$prijmyvydaje";s:48:"/** @var Model\PrijmyVydajeRepository @inject */";s:22:"$ciselniktyptransakcie";s:57:"/** @var Model\CiselnikTypTransakcieRepository @inject */";s:25:"createComponentDeleteForm";s:53:"/**
+	 * Delete form factory.
+	 * @return Form
+	 */";}}

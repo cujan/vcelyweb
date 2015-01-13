@@ -1,0 +1,11 @@
+{* Latte template *}
+
+{block content}
+
+{if $prijemvydaj}
+	<p>Are you sure that you want to delete ‘{$prijemvydaj->popis}’ by ‘{$prijemvydaj->datum}’?</p>
+	{control deleteForm}
+
+{else}
+	<p>Cannot find album.</p>
+{/if}

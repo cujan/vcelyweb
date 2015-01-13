@@ -1,0 +1,11 @@
+{* Latte template *}
+
+{block content}
+<h1>Ekonomika včelára</h1>
+{*<a n:href="ekonomika:add">Pridat prijem/vydaj</a>*}
+celkovy prijem = {$celkovyPrijem}
+celkovy vydaj = {$celkovyVydaj}
+{*saldo = {$saldo}*}
+saldo = {$celkovyPrijem - $celkovyVydaj }
+{control polozkaForm}
+{control grid}
